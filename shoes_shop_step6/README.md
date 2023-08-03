@@ -1,5 +1,5 @@
 ---
-chapter: 5
+chapter: 6
 tags: [composition, client-side, Web Components]
 ---
 
