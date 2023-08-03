@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Zapato italiano última moda</title>
+    <link href="/static/page.css" rel="stylesheet" />
+    <link href="/static/outlines.css" rel="stylesheet" />
+    <link
+      href="http://localhost:3002/static/fragment.css"
+      rel="stylesheet"
+    />
+    <link
+      href="http://localhost:3003/static/fragment.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="catalog_layout">
+    <h1 class="catalog_header">The Shoe Shop</h1>
+    <div class="catalog_product">
+      <h2 class="catalog_headline">Zapato italiano última moda</h2>
+      <img
+        class="catalog_image"
+        src="http://localhost:3001/img/zapato_italiano.png"
+      />
+    </div>
+    <div class="catalog_details">
+      <checkout-buy sku="italiano"></checkout-buy>
+    </div>
+    <aside class="catalog_recos">
+      <recommendations-panel sku="italiano"></recommendations-panel>
+    </aside>
+    <script src="http://localhost:3002/static/fragment.js" async></script>
+    <script src="http://localhost:3003/static/fragment.js" async></script>
+  </body>
+</html>
